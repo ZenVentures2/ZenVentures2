@@ -15,6 +15,9 @@
 		05DDA4C926A082940046A285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DDA4C726A082940046A285 /* LaunchScreen.storyboard */; };
 		05DDA4D426A082950046A285 /* PommelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA4D326A082950046A285 /* PommelTests.swift */; };
 		05DDA4DF26A082950046A285 /* PommelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA4DE26A082950046A285 /* PommelUITests.swift */; };
+		CB16FEEA6F3621A633DBAC7D /* Pods_PommelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0C824CB96FB4EF0948E125 /* Pods_PommelTests.framework */; };
+		DA11E33E860A208C2F7D7FA5 /* Pods_Pommel_PommelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973BE0C12768E0BECDD625B4 /* Pods_Pommel_PommelUITests.framework */; };
+		E3C616C99ABBE3F74FEF6A34 /* Pods_Pommel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096D0633D54E054C90B888D8 /* Pods_Pommel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		05DDA4DA26A082950046A285 /* PommelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PommelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DDA4DE26A082950046A285 /* PommelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PommelUITests.swift; sourceTree = "<group>"; };
 		05DDA4E026A082950046A285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096D0633D54E054C90B888D8 /* Pods_Pommel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pommel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0C824CB96FB4EF0948E125 /* Pods_PommelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PommelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F86E61343FE791E3FE1301 /* Pods-Pommel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pommel.debug.xcconfig"; path = "Target Support Files/Pods-Pommel/Pods-Pommel.debug.xcconfig"; sourceTree = "<group>"; };
+		5C0E396F707EBE1478E84C22 /* Pods-PommelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PommelTests.release.xcconfig"; path = "Target Support Files/Pods-PommelTests/Pods-PommelTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E45310D6D76CE1A401A5917 /* Pods-Pommel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pommel.release.xcconfig"; path = "Target Support Files/Pods-Pommel/Pods-Pommel.release.xcconfig"; sourceTree = "<group>"; };
+		8A7E8498610971578A14C885 /* Pods-Pommel-PommelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pommel-PommelUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pommel-PommelUITests/Pods-Pommel-PommelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		973BE0C12768E0BECDD625B4 /* Pods_Pommel_PommelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pommel_PommelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED409F18C2437248B5739A5 /* Pods-PommelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PommelTests.debug.xcconfig"; path = "Target Support Files/Pods-PommelTests/Pods-PommelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD934315821D3B7E5ED05CD0 /* Pods-Pommel-PommelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pommel-PommelUITests.release.xcconfig"; path = "Target Support Files/Pods-Pommel-PommelUITests/Pods-Pommel-PommelUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C616C99ABBE3F74FEF6A34 /* Pods_Pommel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB16FEEA6F3621A633DBAC7D /* Pods_PommelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA11E33E860A208C2F7D7FA5 /* Pods_Pommel_PommelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				05DDA4D226A082950046A285 /* PommelTests */,
 				05DDA4DD26A082950046A285 /* PommelUITests */,
 				05DDA4BA26A0828F0046A285 /* Products */,
+				580E6939F583301E1DF961FC /* Pods */,
+				A86BCF17ED52B9527AC9C3BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = PommelUITests;
 			sourceTree = "<group>";
 		};
+		580E6939F583301E1DF961FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34F86E61343FE791E3FE1301 /* Pods-Pommel.debug.xcconfig */,
+				5E45310D6D76CE1A401A5917 /* Pods-Pommel.release.xcconfig */,
+				8A7E8498610971578A14C885 /* Pods-Pommel-PommelUITests.debug.xcconfig */,
+				BD934315821D3B7E5ED05CD0 /* Pods-Pommel-PommelUITests.release.xcconfig */,
+				AED409F18C2437248B5739A5 /* Pods-PommelTests.debug.xcconfig */,
+				5C0E396F707EBE1478E84C22 /* Pods-PommelTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A86BCF17ED52B9527AC9C3BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				096D0633D54E054C90B888D8 /* Pods_Pommel.framework */,
+				973BE0C12768E0BECDD625B4 /* Pods_Pommel_PommelUITests.framework */,
+				1B0C824CB96FB4EF0948E125 /* Pods_PommelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05DDA4E326A082950046A285 /* Build configuration list for PBXNativeTarget "Pommel" */;
 			buildPhases = (
+				CFB88CAAB689772F6ECA841B /* [CP] Check Pods Manifest.lock */,
 				05DDA4B526A0828F0046A285 /* Sources */,
 				05DDA4B626A0828F0046A285 /* Frameworks */,
 				05DDA4B726A0828F0046A285 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05DDA4E626A082950046A285 /* Build configuration list for PBXNativeTarget "PommelTests" */;
 			buildPhases = (
+				72722766429DE1E4D23F2B9F /* [CP] Check Pods Manifest.lock */,
 				05DDA4CB26A082950046A285 /* Sources */,
 				05DDA4CC26A082950046A285 /* Frameworks */,
 				05DDA4CD26A082950046A285 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05DDA4E926A082950046A285 /* Build configuration list for PBXNativeTarget "PommelUITests" */;
 			buildPhases = (
+				63917C9D2B4D9EDF5ED96D3D /* [CP] Check Pods Manifest.lock */,
 				05DDA4D626A082950046A285 /* Sources */,
 				05DDA4D726A082950046A285 /* Frameworks */,
 				05DDA4D826A082950046A285 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63917C9D2B4D9EDF5ED96D3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pommel-PommelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72722766429DE1E4D23F2B9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PommelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB88CAAB689772F6ECA841B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pommel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		05DDA4B526A0828F0046A285 /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		05DDA4E426A082950046A285 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F86E61343FE791E3FE1301 /* Pods-Pommel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +565,7 @@
 		};
 		05DDA4E526A082950046A285 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E45310D6D76CE1A401A5917 /* Pods-Pommel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +584,7 @@
 		};
 		05DDA4E726A082950046A285 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED409F18C2437248B5739A5 /* Pods-PommelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +606,7 @@
 		};
 		05DDA4E826A082950046A285 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0E396F707EBE1478E84C22 /* Pods-PommelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +628,7 @@
 		};
 		05DDA4EA26A082950046A285 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7E8498610971578A14C885 /* Pods-Pommel-PommelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +648,7 @@
 		};
 		05DDA4EB26A082950046A285 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD934315821D3B7E5ED05CD0 /* Pods-Pommel-PommelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

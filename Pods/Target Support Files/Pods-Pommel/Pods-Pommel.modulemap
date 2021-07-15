@@ -1,0 +1,6 @@
+framework module Pods_Pommel {
+  umbrella header "Pods-Pommel-umbrella.h"
+
+  export *
+  module * { export * }
+}
