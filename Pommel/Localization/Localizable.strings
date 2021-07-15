@@ -1,0 +1,13 @@
+/* 
+ Localizable.strings
+ Pommel
+
+  Created by Mahesh Yakami on 4/14/20.
+*/
+
+
+"APP_NAME" = "Caroo";
+"SKIP" = "Skip";
+"NEXT" = "Next";
+"VALUATE" = "Valuate";
+"NO_MEETINGS" = "No need to\narrange meetings!";
