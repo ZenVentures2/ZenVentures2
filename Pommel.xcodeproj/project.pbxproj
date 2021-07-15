@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0538CD0A26A08B2300082909 /* Framework in Frameworks */ = {isa = PBXBuildFile; productRef = 0538CD0926A08B2300082909 /* Framework */; };
 		05DDA4BD26A0828F0046A285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA4BC26A0828F0046A285 /* AppDelegate.swift */; };
 		05DDA4BF26A0828F0046A285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA4BE26A0828F0046A285 /* SceneDelegate.swift */; };
 		05DDA4C126A0828F0046A285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA4C026A0828F0046A285 /* ViewController.swift */; };
@@ -69,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3C616C99ABBE3F74FEF6A34 /* Pods_Pommel.framework in Frameworks */,
+				0538CD0A26A08B2300082909 /* Framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +157,6 @@
 				AED409F18C2437248B5739A5 /* Pods-PommelTests.debug.xcconfig */,
 				5C0E396F707EBE1478E84C22 /* Pods-PommelTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,6 +187,9 @@
 			dependencies = (
 			);
 			name = Pommel;
+			packageProductDependencies = (
+				0538CD0926A08B2300082909 /* Framework */,
+			);
 			productName = Pommel;
 			productReference = 05DDA4B926A0828F0046A285 /* Pommel.app */;
 			productType = "com.apple.product-type.application";
@@ -259,6 +263,9 @@
 				Base,
 			);
 			mainGroup = 05DDA4B026A0828F0046A285;
+			packageReferences = (
+				0538CD0826A08B2300082909 /* XCRemoteSwiftPackageReference "Framework" */,
+			);
 			productRefGroup = 05DDA4BA26A0828F0046A285 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -706,6 +713,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0538CD0826A08B2300082909 /* XCRemoteSwiftPackageReference "Framework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maheshyakami/Framework.git";
+			requirement = {
+				kind = revision;
+				revision = e2999ee3debe106c0632bf711b9a2d695508716a;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0538CD0926A08B2300082909 /* Framework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0538CD0826A08B2300082909 /* XCRemoteSwiftPackageReference "Framework" */;
+			productName = Framework;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 05DDA4B126A0828F0046A285 /* Project object */;
 }
