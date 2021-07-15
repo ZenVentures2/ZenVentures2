@@ -29,6 +29,16 @@
 		0538CD3D26A09C4E00082909 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD3A26A09C4E00082909 /* BaseViewModel.swift */; };
 		0538CD3E26A09C4E00082909 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD3B26A09C4E00082909 /* BaseView.swift */; };
 		0538CD4026A09CB000082909 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD3F26A09CB000082909 /* AppRoute.swift */; };
+		0538CD4926A0A02B00082909 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD4226A0A02B00082909 /* File.swift */; };
+		0538CD4A26A0A02B00082909 /* UploadSyncronizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD4326A0A02B00082909 /* UploadSyncronizer.swift */; };
+		0538CD4B26A0A02B00082909 /* UploadResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD4426A0A02B00082909 /* UploadResult.swift */; };
+		0538CD4C26A0A02B00082909 /* UploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD4526A0A02B00082909 /* UploadManager.swift */; };
+		0538CD4D26A0A02B00082909 /* UploaderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD4626A0A02B00082909 /* UploaderConfig.swift */; };
+		0538CD4E26A0A02B00082909 /* MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD4726A0A02B00082909 /* MimeType.swift */; };
+		0538CD4F26A0A02B00082909 /* FileUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD4826A0A02B00082909 /* FileUploader.swift */; };
+		0538CD5226A0A09200082909 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD5126A0A09200082909 /* NSAttributedString.swift */; };
+		0538CD5426A0A0C800082909 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD5326A0A0C800082909 /* Utility.swift */; };
+		0538CD5726A0A16D00082909 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538CD5626A0A16D00082909 /* AuthRouter.swift */; };
 		05DDA4BD26A0828F0046A285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA4BC26A0828F0046A285 /* AppDelegate.swift */; };
 		05DDA4BF26A0828F0046A285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DDA4BE26A0828F0046A285 /* SceneDelegate.swift */; };
 		05DDA4C626A082940046A285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DDA4C526A082940046A285 /* Assets.xcassets */; };
@@ -78,6 +88,16 @@
 		0538CD3A26A09C4E00082909 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		0538CD3B26A09C4E00082909 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		0538CD3F26A09CB000082909 /* AppRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		0538CD4226A0A02B00082909 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		0538CD4326A0A02B00082909 /* UploadSyncronizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadSyncronizer.swift; sourceTree = "<group>"; };
+		0538CD4426A0A02B00082909 /* UploadResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadResult.swift; sourceTree = "<group>"; };
+		0538CD4526A0A02B00082909 /* UploadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadManager.swift; sourceTree = "<group>"; };
+		0538CD4626A0A02B00082909 /* UploaderConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploaderConfig.swift; sourceTree = "<group>"; };
+		0538CD4726A0A02B00082909 /* MimeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MimeType.swift; sourceTree = "<group>"; };
+		0538CD4826A0A02B00082909 /* FileUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUploader.swift; sourceTree = "<group>"; };
+		0538CD5126A0A09200082909 /* NSAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		0538CD5326A0A0C800082909 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		0538CD5626A0A16D00082909 /* AuthRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
 		05DDA4B926A0828F0046A285 /* Pommel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pommel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05DDA4BC26A0828F0046A285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05DDA4BE26A0828F0046A285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -186,6 +206,7 @@
 		0538CD2526A099BB00082909 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				0538CD5326A0A0C800082909 /* Utility.swift */,
 				0538CD2726A09A2A00082909 /* Constant.swift */,
 				0538CD2826A09A2B00082909 /* String.swift */,
 			);
@@ -235,6 +256,36 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		0538CD4126A0A01700082909 /* Uploader */ = {
+			isa = PBXGroup;
+			children = (
+				0538CD4226A0A02B00082909 /* File.swift */,
+				0538CD4826A0A02B00082909 /* FileUploader.swift */,
+				0538CD4726A0A02B00082909 /* MimeType.swift */,
+				0538CD4626A0A02B00082909 /* UploaderConfig.swift */,
+				0538CD4526A0A02B00082909 /* UploadManager.swift */,
+				0538CD4426A0A02B00082909 /* UploadResult.swift */,
+				0538CD4326A0A02B00082909 /* UploadSyncronizer.swift */,
+			);
+			path = Uploader;
+			sourceTree = "<group>";
+		};
+		0538CD5026A0A07600082909 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0538CD5126A0A09200082909 /* NSAttributedString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0538CD5526A0A13A00082909 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0538CD5626A0A16D00082909 /* AuthRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		05DDA4B026A0828F0046A285 = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +311,9 @@
 		05DDA4BB26A0828F0046A285 /* Pommel */ = {
 			isa = PBXGroup;
 			children = (
+				0538CD5526A0A13A00082909 /* Router */,
+				0538CD5026A0A07600082909 /* Extensions */,
+				0538CD4126A0A01700082909 /* Uploader */,
 				05DDA4CA26A082940046A285 /* Info.plist */,
 				0538CD3126A09B1000082909 /* Managers */,
 				0538CD3026A09B0000082909 /* Models */,
@@ -527,6 +581,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0538CD4C26A0A02B00082909 /* UploadManager.swift in Sources */,
 				0538CD3526A09B6400082909 /* User.swift in Sources */,
 				0538CD1126A0968A00082909 /* AppLaunchBuilder.swift in Sources */,
 				0538CD3726A09B6F00082909 /* UserManager.swift in Sources */,
@@ -537,13 +592,22 @@
 				0538CD1C26A098B300082909 /* Image.swift in Sources */,
 				0538CD1026A0968A00082909 /* AppEnvironment.swift in Sources */,
 				0538CD3C26A09C4E00082909 /* BaseController.swift in Sources */,
+				0538CD5226A0A09200082909 /* NSAttributedString.swift in Sources */,
+				0538CD4E26A0A02B00082909 /* MimeType.swift in Sources */,
+				0538CD4B26A0A02B00082909 /* UploadResult.swift in Sources */,
+				0538CD5726A0A16D00082909 /* AuthRouter.swift in Sources */,
 				0538CD1B26A098B300082909 /* Color.swift in Sources */,
 				0538CD4026A09CB000082909 /* AppRoute.swift in Sources */,
 				0538CD0F26A0968A00082909 /* AppCoordinator.swift in Sources */,
+				0538CD4A26A0A02B00082909 /* UploadSyncronizer.swift in Sources */,
+				0538CD4F26A0A02B00082909 /* FileUploader.swift in Sources */,
 				0538CD3326A09B4B00082909 /* DIFactory.swift in Sources */,
+				0538CD5426A0A0C800082909 /* Utility.swift in Sources */,
 				0538CD1D26A098B300082909 /* Font.swift in Sources */,
+				0538CD4D26A0A02B00082909 /* UploaderConfig.swift in Sources */,
 				0538CD2926A09A2B00082909 /* Constant.swift in Sources */,
 				05DDA4BD26A0828F0046A285 /* AppDelegate.swift in Sources */,
+				0538CD4926A0A02B00082909 /* File.swift in Sources */,
 				05DDA4BF26A0828F0046A285 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

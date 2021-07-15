@@ -10,6 +10,6 @@ import Framework
 
 protocol AppRoutable {}
 
-enum CarooRoute: AppRoutable {
+enum PommelRoute: AppRoutable {
     case landing
 }
